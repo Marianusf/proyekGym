@@ -1,0 +1,40 @@
+/* CSS MEMBER-EDIT */
+
+/* CSS WOKOAKWOKA */
+.gray-background {
+  background-color: #f0f0f0; /* Warna abu-abu */
+}
+.headerSek {
+  background-color: #1a1363; /* Warna Dongker */
+}
+
+/* Member Profile */
+.card-style1 {
+  border-radius: 15px; /* Sudut yang lengkung */
+  width: 90%; /* Mengatur lebar kartu */
+  margin: auto;
+}
+
+.profile-image {
+  max-width: 90%; /* Mengatur lebar gambar profil agar tidak terlalu besar */
+  height: auto; /* Mengatur ketinggian gambar profil agar proporsional */
+}
+
+.profile-info {
+  padding: 30px; /* Menambahkan padding untuk info profil */
+}
+
+.edit-button {
+  margin-top: 20px; /* Menambahkan margin atas pada tombol Edit Profile */
+}
+
+/* form edit */
+.form-edit {
+  border-radius: 15px; /* Sudut yang lengkung */
+  width: 90%;
+  margin-bottom: 70px;
+}
+
+.hidden {
+  display: none;
+}

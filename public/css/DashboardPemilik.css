@@ -1,0 +1,80 @@
+.dashboard {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.informasi-pemilik {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.container-dashboard {
+  margin: 0 auto;
+  /* Membuat konten berada di tengah */
+  max-width: calc(100% - 185px);
+  /* Lebar konten dikurangi lebar sidebar saat sidebar terbuka */
+  width: 100%;
+  /* Pastikan konten tetap 100% lebar */
+}
+
+.membership-gym {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 10px yellow;
+  border-radius: 20px;
+  background-color: #1a1363;
+}
+
+.membership-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.option {
+  width: 2 0%;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ffe600;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card {
+  background-color: #ffe600;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+  border-radius: 20px;
+  width: 300px;
+}
+.pelanggan {
+  background-color: #ffe600;
+  padding: 10px;
+  margin-left: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+  border-radius: 20px;
+  width: 300px;
+  margin-top: -165px;
+}
+.info {
+  background-color: #ffe600;
+  padding: 10px;
+  margin-left: 900px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.1);
+  border-radius: 20px;
+  width: 400px;
+  margin-top: -140px;
+}
+.informasi-gym {
+  padding: 20px;
+}
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}

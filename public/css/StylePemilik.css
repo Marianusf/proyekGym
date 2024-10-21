@@ -1,0 +1,156 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #ece9e9;
+  transition: margin-left 0.3s ease-in-out;
+}
+.rounded-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+}
+
+.sidebar {
+  background-color: #1a1363;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(250px);
+}
+.menu-icon {
+  color: #ffe600;
+  font-size: 24px;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+}
+.sidebar img.user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+.sidebar.open img.user-photo {
+  transform: translateX(0);
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.sidebar a:hover {
+  background-color: #ffe600;
+  color: #1a1363;
+}
+.container-fluid {
+  margin: 0 auto; /* Membuat konten berada di tengah */
+  max-width: calc(
+    100% - 250px
+  ); /* Lebar konten dikurangi lebar sidebar saat sidebar terbuka */
+  width: 100%; /* Pastikan konten tetap 100% lebar */
+  background-color: #f7f7f7;
+}
+.container-fluid.shifted {
+  margin-left: 250px;
+}
+.header {
+  background-color: #1a1363;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.form-container,
+.table-container {
+  background-color: #bac3c7;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.form-container input {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-container button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2b2d42;
+  color: white;
+  cursor: pointer;
+}
+.form-container button:hover {
+  background-color: #8d99ae;
+}
+.table th,
+.table td {
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    width: 70%;
+    left: -70%;
+  }
+  .sidebar.open {
+    transform: translateX(70%);
+  }
+  .menu-icon {
+    display: block;
+  }
+  .container-fluid.shifted {
+    margin-left: 70%;
+    width: calc(100% - 70%);
+  }
+}
+.header .header2 {
+  width: 500px;
+  background-color: #2292bd;
+  text-align: center;
+  border-radius: 30px;
+}
+.logout {
+  width: 100%;
+  padding: 130px;
+}
+#jenis-informasi {
+  width: 30%; /* Tentukan persen sesuai kebutuhan */
+}
+.logo {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.cardLaporan {
+  border-color: #1a1363;
+  margin-bottom: 20px;
+  box-shadow: 0 0 3px rgba(0, 0, 0.1);
+  background-color: #ffe600;
+  padding: 5px;
+  height: 200px;
+}

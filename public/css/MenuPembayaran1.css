@@ -1,0 +1,78 @@
+.body {
+  background-color: #ffe600;
+}
+.main {
+  /* background-color: #332f64; */
+  border-radius: 15%;
+}
+
+.membership-options {
+  display: flex;
+  justify-content: space-around; /*biar berjarak sama saat size diubah*/
+  /* margin-bottom: 50px; */
+  padding: 20px;
+  /* border-bottom: 1px solid #ddd; */
+  /* box-shadow: 0 0 10px yellow; */
+  border-radius: 20px;
+  background-color: #332f64;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.membership-options1 {
+  display: flex;
+  justify-content: space-around; /*biar berjarak sama saat size diubah*/
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #332f64;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.main .bulan {
+  background-color: #ffe600;
+  color: BLACK;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.membership-option.selected {
+  border: 4px solid #ffe600;
+}
+/* .payment-methods {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.payment-methods select {
+  padding: 10px;
+  font-size: 16px;
+} */
+.details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.details p {
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.code {
+  text-align: center;
+}
+
+.h1 {
+  text-align: center; /* Untuk memposisikan h1 ke tengah */
+  margin-top: 20px; /* Untuk memberi ruang atas */
+}
+
+.confirm {
+  background-color: #332f64;
+}
